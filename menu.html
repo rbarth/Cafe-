@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Traveling through MI? Need a place to stay along the way? Stop on by the Bunkhouse, located right on M-66! The Bunkhouse is the perfect place for an overnight stay, or even an extended one!">
+	<title>Chuckwagon Café</title>
+	<link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<!-- <link href="assets/css/bootstrap-responsive.css" rel="stylesheet"> -->
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+	<script type="text/javascript" src="assets/javascripts/bunkMain.js"></script>
+	<script type="text/javascript" src="assets/javascripts/cafe.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="assets/stylesheets/cafe.css"/>	
+</head>
+
+<body>	
+	<!------------------NavBar---------------------->	
+	<nav class="navbar navbar-custom navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header ">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>			
+ 					<span class="glyphicon glyphicon-menu-down"></span>
+				</button>
+				<a class="navbar-brand" href="bunkhouse.html"><img src="assets/images/bunkLogo.png" alt="Brand" width = "50px" height = "50px"></a>  
+			</div><!--End nav toggle-->
+	
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<!-- <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li> -->
+					<li><a href="#homeSecTwo">Availability</a></li>
+					<li><a href="#directions">Directions</a></li>
+					<li><a href="https://www.facebook.com/ShirleysChuckwagonCafe" target="_blank">Shirley's Chuckwagon Café</a></li>
+				</ul>
+				<ul class = "navbar-right">
+					<li><a href="https://www.facebook.com/JanettesBunkhouse/timeline" target="_blank"> <img id = "facebookLogo" src="assets/images/facebook-logo.png" width = "30" height = "30"</img></a></li>
+				</ul>
+			</div><!--End nav collapse-->
+		</div><!--End container-->
+	</nav>
+
+	<header>
+		<div class = "my-row">
+			<div class = "container">
+				<div id = "title">
+					<img id="titleImg" src="assets/images/homeTitle2.png" width = "100%" height = "100%" alt="Janette's Bunkhouse: Vacation Rental">
+				</div>
+			</div>
+		</div>	
+	</header>
+
+<!------------------Main---------------------->
+
+	<main>
+
+		
+		<div role="tabpanel">
+  			<!-- Nav tabs -->
+			<ul class="nav nav-tabs" role="tablist">
+		   		<li role="presentation" class="active"><a href="#ourMenu" aria-controls="ourMenu" role="tab" data-toggle="tab">Our Menu</a></li>
+				<li role="presentation"><a href="#breakfastTab" aria-controls="breakfastTab" role="tab" data-toggle="tab">Breakfast</a></li>
+				<li role="presentation"><a href="#burgerTab" aria-controls="burgerTab" role="tab" data-toggle="tab">Burgers</a></li>
+				<li role="presentation"><a href="#kidTab" aria-controls="kidTab" role="tab" data-toggle="tab">Kids' Menu</a></li>
+				<li role="presentation"><a href="#sides" id = "sidesTab" aria-controls="sides" role="tab" data-toggle="tab">Beverages & Sides</a></li>
+		  	</ul>
+
+  			<!-- Tab panes -->
+  			<div class="tab-content">
+    			<div role="tabpanel" class="tab-pane active" id="ourMenu">
+    				<p>The Chuckwagon Café is brimming with hearty meals and delicious treats. Breakfast and lunch are served all day, so you can have a burger at nine in the morning or an omelet at one in the afternoon. Or both! Sit back and stay awhile, the wi-fi is free and the company is great!</p>
+    				<p>All our food is homemade, fresh, and served to order. And don't forget the sides and beverages!</p>
+    				
+    				<br>
+    				
+    				<p><strong><small>NOTICE: We will cook your eggs and meat to order, although consuming raw or undercooked eggs and meat may increase your risk of foodborne illness.</small></strong>
+    			
+    			</div>
+    		
+    			<div role="tabpanel" class="tab-pane" id="breakfastTab">
+    				<div class = "my-row container">
+			  			<div class ="col-md-4">
+			  				<h3>Specialties</h3>
+							<ul>
+								<li><h4>The Strawboss</h4></li>
+								<li>Fried potatoes or hash browns cooked with grilled onions & peppers, mixed with cheese & ham with sausage gravy on the side and choice of toast.  $6.99</li>
+								
+								<li><h4>Hired Hand</h4></li>
+								<li>One egg, cheese, and choice of bacon, ham, or sausage patty served on an english muffin.  $3.25</li>
+								
+								<li><h4>Shirley’s Breaded Western Steak</h4>
+								<li>Breaded steak, eggs, gravy, choice of <a href = "#potato">potato</a> & toast.  $7.55</li>
+								
+								<li><h4>*Steak & Eggs</h4></li>
+								<li>6 oz. steak, 2 eggs, choice of <a data-tab-destination = "sidesTab">potato</a> & toast.  $9.35</li>
+								
+								<li><h4>The Drover</h4></li>
+								<li>Hashbrowns or american fries covered with sausage gravy.  $5.55</li>
+								
+								<li><h4>Breakfast Burrito</h4></li>
+								<li>Sausage, onion, green peppers served in tortilla shell smothered in gravy. $3.95</li>
+								
+								<li><h4>3 Glazed Cinnamon Roll Pancakes</h4></li>
+								<li>Choice of meat. $6.35</li>
+								
+								<li><h4>Bananza</h4></li>
+								<li>3 slices of banana bread french toast with bananas and strawberries covered in whipped cream. $6.45</li>
+								
+							</ul>	
+						</div><!--End column one-->
+						
+						<div class ="col-md-4">
+								<h3>*Eggs</h3>
+								
+								<ul>
+									<li><h4>Eggs Any Style!</h4></li>
+									<li>One egg - $1.99</li>
+									<li>One egg & meat- $3.75</li>
+									<li>Two eggs - $2.79</li>
+									<li>Two eggs & meat - $4.25</li>
+									<li>Two eggs & corned beef hash - $5.25</li>
+								</ul>
+								<br>
+								<li class = "center-text"><small>(All egg dishes served with choice of toast)</small></li>
+								<br>
+								<h3>Omelets</h3>
+								<ul>
+									<li><h4>The Chuckwagon</h4></li>
+									<li>4 Eggs, Ham, Cheese, Onion, Green Peppers & Hashbrowns. $6.75</li>
+									<br>
+									<table class = "table">
+										<tr>
+											<th>Omelet</th>
+											<th>3 Eggs</th>
+											<th>2 Eggs</th>
+										</tr>
+										<tr>
+											<th>Ham & Cheese</th>
+											<td>$4.89</td>	
+											<td>$4.59</td>
+										</tr>
+										<tr>
+											<th>Western</th>
+											<td>$5.59</td>
+											<td>$5.29</td>	
+										</tr>					
+										<tr>
+											<th>Meat Lovers<br><small>(Sausage ,Bacon, Ham)</small></th>
+											<td>$6.05</td>	
+											<td>$5.75</td>	
+										</tr>
+									</table>			
+									
+									<h5>Additions</h5>
+									<p>Ham, sausage, or bacon - $1.95</p>
+									<p>Mushrooms or tomatoes - $0.35</p>
+									<p>Biscuits & Gravy - Full order $4.50  -  Half order $3.50</p>
+									<p>Corned Beef Hash - Full order $3.99  -  Half order $3.29</p>
+								</ul>
+
+
+	
+						</div><!--End column two-->
+						
+						<div class ="col-md-4">
+								<h3>From the Griddle</h3>
+								<ul>
+									<li><h4>Flapjacks</h4></li>
+									
+									<li>One flapjack - $2.45</li>
+									<li>Two flapjacks - $3.75</li>
+									<li><small>Add blueberries for $0.55</small></li>
+									<li><small>Add sausage for $0.55</small></li>
+								</ul>	
+									<br>
+								<ul>	
+									<li><h4>WOW Waffle</h4></li>
+									<li>WOW Waffle - Full order $3.75 - Half order $2.75</li>
+									<li><small>Add fruit for $1.50</small></li>
+								</ul>
+									<br>
+								<ul>
+									<li><h4>French Toast</h4></li>
+									<li>One french toast - $2.25</li>
+									<li>Two french toast - $3.50</li>
+									<li><small>Add prairie toast for $0.50</small></li>
+									<li><small>(Made with homemade cinnamon bread)</small></li>									
+								</ul>
+								<br>
+								<img id="pancakeImg" src="assets/images/cinnamonPancakes.jpg" width = "100%" height = "100%" alt="Cinnamon glazed pancakes">
+
+						</div><!--End column three-->
+						
+						</div><!--End row-->		
+    
+    			</div>
+    			
+    			<div role="tabpanel" class="tab-pane" id="burgerTab">
+    				<div class = "my-row container">
+			  			<div class ="col-md-4">
+			  				<h3>Burgers</h3>
+							<ul>
+								<li><h4>Chili Chuck Burger</h4></li>
+								<li>Burger with Chili & Cheddar Cheese served on Texas Toast.  $6.49</li>
+						
+								<li><h4>Shirley’s Trail Burger</h4></li>
+								<li>Burger with Cheese & Ham on Texas Toast. $6.55</li>
+						
+								<li><h4>Longhorn Burger</h4></li>
+								<li>½ lb Burger with 4 Slices Bacon, and 2 Slices Cheese. Served deluxe and on a Kaiser Bun. $7.95</li>
+								
+								<br>
+
+								<li>Hamburger - $3.55</li>
+								<li>Cheeseburger - $3.80</li>
+								<li>Bacon Burger - $4.10</li>
+								<li>Bacon Cheeseburger - $4.50</li>
+								<li>Olive Burger - $3.95</li>
+								<li>Mushroom Swiss Burger - $4.25</li>
+								
+								<br>
+								<li><h5>Add Ons</h5></li>
+								<li>Extra slice of cheese - $0.55</li>
+								<li>Deluxe: Lettuce, tomato & mayo - $0.55</li>
+							</ul>	
+    					</div><!--Ends burgers-->
+    					<div class ="col-md-4">
+			  				<h3>Sandwiches</h3>
+							<ul>
+								<li><h4>Bronco Busting B.L.T</h4></li>
+								<li>½ lb bacon with lettuce, tomato and mayo on 3 slices of texas toast. $7.75</li>
+								<li><h4>The Chicken Chuck Burger</h4></li>
+								<li>6oz breaded chicken breast with ham & swiss served deluxe on Texas toast. $6.99</li>
+								
+								<br>
+								<li>Grilled Cheese on Texas Toast - $2.55</li>
+								<li>Grilled  Ham & Cheese - $3.45</li>
+								<li>Grilled Chicken Breast Deluxe - $4.95</li>
+								<li>B.L.T. <small>served on Texas toast</small> - $3.95</li>
+								<li>Egg Salad Sandwich <small>(Made Fresh)</small> - $2.95</li>
+								<li>Chicken Salad Sandwich <small>(Made Fresh)</small> - $3.75</li>
+								<li>Tuna Salad Sandwich <small>(Made Fresh)</small> - $3.85</li>
+								<li>Fishwich - $3.85</li>
+							</ul>	
+							
+							<h3>Hot Sandwiches</h3>
+							<ul>
+								<li class = "center-text"><small>Served with choice of <a href="#potato" data-tab="#sides">potato</a></small></li>
+								<br>
+								<li>Hot Beef - $6.50</li>
+								<li>Hot Turkey - $6.50</li>
+							</ul>	
+						</div><!--Ends sandwiches-->
+						
+						<div class ="col-md-4">
+							
+							<div id = "burgerBox">
+								<p>Make any burger or sandwich a basket with french fries and choice of coleslaw, cottage cheese or applesauce. $2.50</p>
+								<br>
+								<p>All sandwiches and burgers come with chips and a pickle</p>
+							</div>
+								
+							<br>
+								
+							<h3>Hot Dogs & Wraps</h3>	
+							<ul>
+								<li class = "center-text"><small>Add cheese for $0.55</small></li>	
+								<br>						
+								<li>Hot Dog - $1.95</li>
+								<li>Chili Dog - $2.50</li>
+								<li>Coney Dog - $2.50</li>
+								<br>
+								<li class = "center-text">Wraps served with chips & pickle</li>  
+								<br>              
+								<li><h4>Chicken Wrap</h4></li>
+								<li>(Grilled or crispy) Served with grilled onion & peppers, lettuce, tomato and cheese rolled into a tortilla shell. $6.25</li>
+    						</ul>
+    					</div><!--dogs and wraps-->		
+    				</div>
+    			</div><!--Ends lunch-->				
+    			
+    			<div role="tabpanel" class="tab-pane" id="kidTab">
+    				<div class = "my-row container">
+			  			<div class ="col-md-4">
+			  				<h3>Breakfast</h3>
+							<ul>
+								<li>1 egg & slice of toast - $1.99</li>
+								<li>Silver dollar flapjack & meat - $3.00</li>
+							</ul>
+						</div>
+						
+						<div class ="col-md-4">
+							<img id="kidCowgirl" src="assets/images/kidCowgirl.png" width = "30%" height = "30%" alt="Kiddy Cowboy">
+							<img id="kidCowboy" src="assets/images/kidCowboy.png" width = "30%" height = "30%" alt="Kiddy Cowboy">
+							<figcaption>Kids' Menu: Ten years and younger</figcaption>
+						</div>	
+						
+						<div class ="col-md-4">	
+							<h3>Lunch</h3>
+							<ul>	
+                				<li>Peanut butter sandwich - $1.90</li>
+								<li>Hamburger & half order of french fries - $3.10</li>
+								<li><small>Add cheese - $0.55</small></li>
+								<li>Chicken strip & half order of french fries - $3.50</li>
+								<li>Macaroni & cheese - $2.75</li>
+							</ul>
+						</div>
+					</div>		    				
+    			</div><!--ends kids'-->
+
+    			
+    			<div role="tabpanel" class="tab-pane" id="sides">
+    				<div class = "my-row container">
+			  			<div class ="col-md-4">
+			  				<h3>Beverages</h3>
+			  				<ul>
+			  					<li>Coffee, hot tea, or iced tea - $1.25</li>
+			  					<li>Specialty teas available - $1.45</li>
+			  					<li>Soda pop - $1.50</li>
+			  					<li>Juice - Small $0.95  - Large $1.45</li>
+			  					<li><small>(Orange, apple or tomato)</small></li>
+			  					<li>Hot cocoa - $1.25</li>
+			  					<li>Milk - Small $0.95 - Large - $1.45</li>
+			  					<li><small>(White or chocolate)</small></li>
+			  					<li>Lemonade - $1.50</li>
+			  				</ul>
+			  			</div><!--ends beverages-->
+			  			
+			  			<div class ="col-md-4">
+			  				<h3>Side Orders</h3>
+			  				<ul>
+			  					<li>Biscuits - $1.25</li>
+			  					
+			  					<li>Toast: Texas, white, wheat, or rye</li>
+			  					<li>Homemade white, wheat, or cinnamon</li>
+			  					<li>Raisin or English muffin - $1.35</li>
+			  					<li>Bagel plain or toasted - $1.49</li>
+			  					<li><small>Add cream cheese - $0.75</small></li>
+
+								<br>
+
+			  					<li>Bacon, ham, sausage patties, or links - $2.45</li>
+			  					<li>Cup of sausage gravy - $2.30</li>
+			  					<li>Oatmeal - Full order $2.50  - Half order - $2.05</li>
+			  					<li><small>(served with milk and brown sugar)</small></li>
+			  					<li>Grits - Full order $2.50 - Half order $2.05</li>
+			  					<li><small>Add pecans, walnuts or raisins - $0.55</small></li>
+			  					<li></li>
+			  				</ul>
+			  			</div><!--ends sides-->
+			  			
+			  			<div class ="col-md-4"  id = "potato">
+			  				<h3>Choice of Potato</h3>
+			  				<ul>
+								<li>Baked <small>(when available)</small></li>
+			  					<li>Hashbrowns</li>
+			  					<li>American fries</li>
+			  					<li>Mashed</li>
+			  					<li>French fries</li>
+			  					<li>Brew Fries - additional $0.50</li>
+			  				</ul>	
+			  				
+			  				<br>
+			  				
+			  				<h3>Soups</h3>
+			  				<ul>
+			  					<li>Vegetable beef soup</li>
+			  					<li>Homemade soup of the day</li>
+			  					<li>Bowl $2.55 - Cup $1.95</li>
+			  					<li>Cow Camp Chili</li>
+			  					<li>Bowl $2.95 - Cup $2.55</li>
+			  					<li><small>Add cheese - $0.55</small></li>
+			  				</ul>	
+			  							  				
+			  			</div><!--ends soup/potatoes-->
+			  			
+      
+
+
+       
+
+
+			  			
+			  		</div>		
+    			</div><!--ends sides-->
+    			
+    			
+  			</div>
+
+		</div><!--End Tabs-->
+		
+
+		
+<!-- 
+		print menu
+		logo with wagon?
+		13th we present
+ -->
+		
+	</main>
+
+	<footer>
+		<div class = "my-row container footer">
+			<div class = "col-md-2">
+				<img id = "logoImg" href="bunkhouse.html" src="assets/images/bunkLogo.png"  alt="Brand" height="100%" width="100%">
+			</div> 	
+					
+			<div class = "col-md-3 col-md-offset-1">	
+				<ul>
+					<li><h4>Location</h4></li>
+					<li>107 Maple St Nashville MI</li>
+					<br>
+					<li>Facebook</li>
+					<li><a href="https://www.facebook.com/JanettesBunkhouse/timeline" target="_blank"> <img id = "facebookLogo" src="assets/images/facebook-logo.png" width = "30" height = "30"</img></a></li>
+				</ul>		
+			</div>
+			
+			<div class = "col-md-3">
+				<ul>
+					<li><h4>Contact Us</h4></li>
+					<li>Phone</li>
+					<li>(616)890-9908</li>
+					<br>
+					<li>Email</li>
+					<li>jaykim75@yahoo.com</li>
+					
+				</ul>	
+			</div>
+
+			<div class = "col-md-3">
+				<ul>
+					<li><h4>More on M-66</h4></li>
+					<li><a href ="https://www.youtube.com/watch?v=4X7lcEjdqM8" target="_blank">Get Your Kicks on M-66</a></li>
+					<br>	
+					<li><a href ="http://traveltips.usatoday.com/places-stop-m66-michigan-101261.html"target="_blank">Places to Stop</a></li>
+				</ul>	
+			</div>
+			
+		</div><!-- Ends container -->		
+	</footer>
+</body>
+</html>
+
+
+
+
+
+
