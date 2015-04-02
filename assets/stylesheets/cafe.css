@@ -97,21 +97,6 @@ main {
   background-color: #591E23;
   padding-top: 5px; }
 
-#titleImg {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  max-height: 100px;
-  max-width: 400px; }
-
-#title {
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  max-height: 100px;
-  max-width: 400px; }
 
 .navbar-custom {
   color: #fff;
@@ -141,44 +126,10 @@ main {
   .inner-item img {
     margin: 0 auto; }
 
-#myCarousel {
-  background: #73503C; }
-
-#bunkhouseImg {
-  margin-top: 60px; }
 
 #facebookLogo {
   margin-top: 5px; }
 
-#bunkhouseAbout, #amenities {
-  background-color: #591E23;
-  margin-top: 0;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 10px;
-  color: #fff; }
-
-#amenities {
-  margin-bottom: 50px; }
-
-#homeNashville {
-  background-color: #F2D8A7;
-  margin-top: 0;
-  padding-top: 3px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 10px; }
-  #homeNashville a:hover {
-    color: #591E23; }
-
-#homeSecTwo {
-  background-color: #591E23;
-  margin-top: 0;
-  padding-top: 3px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 10px;
-  color: #fff; }
 
 .center-text {
   text-align: center; }
