@@ -58,6 +58,12 @@ h3 {
 h4 {
   padding-top: 5px;
   font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif; }
+  
+h5
+{
+	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	font-size: 16px;
+}
 
 ul {
   padding-left: 0; }
