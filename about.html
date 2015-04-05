@@ -35,31 +35,22 @@
 					<span class="sr-only">Toggle navigation</span>			
  					<span class="glyphicon glyphicon-menu-down"></span>
 				</button>
-				<a class="navbar-brand" href="index.html"><img src="assets/images/logoLight.png" alt="Brand" width = "50px" height = "50px"></a>  
+				<a class="navbar-brand" href="index.html"><img src="assets/images/logoLight.png" alt="Chuckwagon Café" width = "50px" height = "50px"></a>  
 			</div><!--End nav toggle-->
 	
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Links <b class="caret"></b></a>
-					<ul class="dropdown-menu">
-						<li><a href="https://www.facebook.com/ShirleysChuckwagonCafe?ref=br_tf" target="_blank">Our Facebook</a></li>
-						<li class="divider"></li>
-						<li><a href="https://www.facebook.com/JanettesBunkhouse/timeline" target="_blank">Janette's Bunkhouse Facebook</a></li>
-						<li class="divider"></li>
-						<li><a href="#">Janette's Bunkhouse Rental</a></li>
-					</ul>
-					</li>					
-					
+					<li id = "cafeName" href="index.html">Chuckwagon Café</li>
+									
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu <b class="caret"></b></a>
 						<ul class="dropdown-menu multi-column columns-3">
 						<div class="row">
 							<div class="col-sm-4">
 								<ul class="multi-column-dropdown">
-									<li><a href="#"><b>Breakfast</b></a></li>
+									<li><a href="menus.html" class = "breakfastShow"><b>Breakfast</b></a></li>
 									<li class="divider"></li>
-									<li><a href="#"><b><img src="assets/images/cinnamonPancakes.jpg" alt="Cinnamon-Roll-Pancakes" class="img-circle" height = "90%" width = "90%"></b></a></li>
+									<li><a href="menus.html"><b><img src="assets/images/cinnamonPancakes.jpg" alt="Cinnamon-Roll-Pancakes" class="img-circle" height = "90%" width = "90%"></b></a></li>
 								</ul>
 							</div>
 							<div class="col-sm-4">
@@ -81,7 +72,7 @@
 						</ul>
 					</li>
 					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About <span class="caret"></span></a>
+					<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About <span class="caret"></span></a>
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="about.html#mission">Mission</a></li>
 							<li class="divider"></li>
@@ -93,6 +84,8 @@
 
 					<li><a href="index.html#secThree">Hours</a></li>
 					<li><a href="index.html#directions">Directions</a></li>
+					
+					
 				</ul>
 				<ul class = "navbar-right">
 					<li><a href="https://www.facebook.com/ShirleysChuckwagonCafe?ref=br_tf" target="_blank"> <img id = "facebookLogo" src="assets/images/facebook-logo.png" width = "30" height = "30"</img></a></li>
@@ -117,122 +110,88 @@
 		<div class = "secOne" class = "my-row">
 			<div class = "container">
 				<div class = "center-text col-md-12">
-					<h1>Homestyle Cookin’</h1>
-					<p>Shirley’s Chuckwagon Café offers a friendly atmosphere and the best home-style cooking in Nashville, MI. 
-					Breakfast is served all day, every day, and if you are hankering for a good burger, pizza, or burrito, the Chuckwagon Café serves that and much more!</p>
-					
-					<div class = "col-md-6 ">	
-						<h3>Highlighted Meals</h3>
-						<ul>
-							<li>Biscuits and Gravy</li>
-							<li>Cinnamon pancakes</li>
-							<li>Fish Fry Fridays</li>
-							<li>Daily Specials</li>
-						</ul>
-					</div>
-					<div class = "col-md-6">
-					<img id ="horseImg" src = "assets/images/horse.png" height = "50%" width = "50%" </img>
-					
+					<h1>About</h1>
+					<p>Shirley’s Chuckwagon Café has been providing friendly service and affordable prices for 13 years. 
+					Now under new ownership, we hope to be able to continue this tradition for many years to come. 
+					We serve breakfast all day and have an expanded menu of hearty, made-from-scratch comfort foods.
+					 We also have a children’s menu for 12 and under.</p>					
 				</div>	
 				</div>
 			</div>
 		</div><!--Ends getaway-->
 		
 	
+		<div class = "secTwo" id ="mission" >
+			<div class = "container my-row">
+			<div class = "col-md-12 ">
+				<h2>Mission Statement</h2>
+					<p>Our mission is to ensure that each guest receives prompt, professional, friendly and courteous service, 
+					which we express by greeting and thanking each guest for the opportunity to serve. 
+					We strive to maintain a clean, comfortable, and well-maintained establishment for our guests and staff and to ensure
+					 that they are treated with the respect and dignity that they deserve. 
+					 We provide a fair priced, nutritional, well-prepared menu using only quality, fresh ingredients. 
+					 By maintaining these objectives, we shall be assured of a fair profit that will allow us to contribute to the 
+					 community we serve.</p>
+			</div><!--Ends festivals -->
+			</div>
+			<hr>
+		</div>	
+				
+				
+				
 		<div class = "secTwo" >
 			<div class = "container my-row">
-				<h1>What Nashville Has To Offer</h1>
-				
-				<div class = "col-md-6 ">
-					<h3>Festivals</h3>
-					<p>The Nashville area is home to various festivals for all ages, and what better place to stay while enjoying the festivities
-					than the Bunkhouse. Here are some of the many annual and semi-annual festivals that Nashville and the surrounding cities have to offer.
-					<div class = "center-text">
-						<ul>
-							<li><h4>Syrup Festival </h4></li>
-							<li><p>Vermontville, MI</p></li>
-							<li><h4>Classic Car Show </h4></li>
-							<li><p>Hastings, MI</p></li>
-							<li><h4>Jazz Festival </h4></li>
-							<li><p>Hastings, MI</p></li>
-							<li><h4><a href="http://www.hastingssummerfest.com/" target="_blank">Summerfest</a></h4></li>
-							<li><p>Hastings, MI</p></li>
-						</ul>		
-					</div>	 
-				</div><!--Ends festivals -->
-
-				<div class = "col-md-6">
-					<h3>Attractions</h3>
-					<p>Done at the festival? Not quite ready to head out for dinner or hit the road? The Nashville area has several great activities to keep
-					you entertained on your getaway. Shopping, camping, sight-seeing; M-66 can connect you to whatever strikes your fancy.<p>
-					<div class = "center-text">
-						<ul>
-							<li><h4>66 Unique Antiques </h4></li>
-							<p>220 Main St, Nashville, MI 49073</p></li>
-							<li><h4>MOO-ville Creamery </h4></li>
-							<p>5815 S M-66 Hwy, Nashville, MI 49073</p></li>
-							<li><h4>Gun Lake Casino (40 minutes) </h4></li>
-							<p>1123 129th Ave Wayland, MI 49348</p></li>
-							<li><h4>Yankee Springs State Recreation Area (30 minutes) </h4></li>
-							<p>2104 S Briggs Rd Middleville, MI 49333</p></li>
-						</ul>	
-					</div>		 
-				</div><!--Ends Attractions-->
+			<div class = "col-md-12 ">
+				<h2>Vision Statement</h2>
+					<p>As part of our mission to provide a friendly and courteous service to our guests, our first priority in future 
+					implementations is to become handicap accessible and fully comply with disabilities codes. 
+					Additionally, we would like to be able to extend our dining area by renovating and utilizing extra storage space. 
+					This would allow everyone with restrictions to be able to enjoy the friendly atmosphere and great food that we provide. 
+					This project would include installing ramps outside of the building, and adding two new bathrooms. 
+					Our goal is to become fully handicap accessible by the end of 2015. <p>
+					<p>Additionally, we own a small building located on Main Street that is connected to our storage and future handicap 
+					access entrance. We currently offer a limited number of baked goods, but despite the high demand, we are limited 
+					within our kitchen area. In order to create an even better experience for our guests, we would like to renovate this 
+					small building into a Bakery/Ice Cream shop, offering soft-serve ice cream along with possible curbside window service.  
+					Our goal for this project would be completion by the end of 2016.</p>
 			</div>
-	
-			<br>
-			<hr>
-			<br>
-	
-
-		</div><!--Ends Nashville-->
+			</div>
+		</div>
 
 	
-		<div class = "secThree" class = "my-row center-text">
+		<div class="secThree my-row" id ="history">
 			<div class = "container">
-				<!-- <div class = "col-md-4 col-md-offset-1"> -->
-				<div class = "col-md-6"">	
-					<h3>Header</h3>
+
+				<div class = "col-md-12"">	
+					<h2>History</h2>
 					
 					<p>Content here</p>
 					
 				</div>	
-
-
-				<div class = "col-md-6">
-					<h3>Hours</h3>
-					<p class = "center-text">(Breakfast all day, every day)</p>
-					<ul>
-						<li>Monday - Thursday 6 a.m. to 2 p.m.</li>
-						<li>Friday 6 a.m. to 8 p.m.</li>
-					</ul>	
-				</div><!--Ends rates-->
 			</div><!--Ends container-->	
-		</div><!--Ends homeSecTwo-->
-	
-
-		<div id="directions" class = "my-row">
-			<div class = "container">
-				<div class = "col-md-5">
-					<h3>Directions</h3>
-					<br>
-					<p>Come visit us! For a quick look at how far away you are from Nashville, type in your address below.
-					If you need more detailed directions to the Chuckwagon Café, click on the "Directions" arrows on the map.</p>
-					<br>
-					<form action="http://maps.google.com/maps" class="map-search">
-						<p>Enter your current location:</p>
-						<input type="text" name="saddr" />
-						<input type="hidden" name="daddr" value="202 N Main Street, Nashville, MI" />
-						<input type="submit" value="Get Directions" />
-					</form>		
-					<br>
-				</div><!--Ends directions/form-->
+		</div><!--Ends history-->
 		
-				<div class = "col-md-6 col-md-offset-1">
-					<iframe id="map-canvas" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2936.704141385033!2d-85.09351!3d42.604020299999995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88180ff7b2dc71c9%3A0xcce8e0cbf66c217!2s202+Main+St%2C+Nashville%2C+MI+49073!5e0!3m2!1sen!2sus!4v1428259062526" width="600" height="450" frameborder="0" style="border:0"></iframe>
-				</div><!--Ends map-->
+		<div class="secFour my-row" id = "contact">
+			<div class = "container">
+
+				<div class = "col-md-6"">	
+					<h2>Contact</h2>
+					
+					<p>Phone</p>
+					<p>Email</p>
+				</div>	
+				
+				<div class = "col-md-6"">	
+					<h2>Facebook</h2>
+					
+					<p>Facebook box</p>
+					
+				</div>	
+				
 			</div><!--Ends container-->	
-		</div><!--Ends Directions (row 5)-->
+		</div><!--Ends contact-->
+		
+		
 	</main>	
 
 	<footer>
@@ -269,6 +228,8 @@
 					<li><a href ="https://www.youtube.com/watch?v=4X7lcEjdqM8" target="_blank">Get Your Kicks on M-66</a></li>
 					<br>	
 					<li><a href ="http://traveltips.usatoday.com/places-stop-m66-michigan-101261.html"target="_blank">Places to Stop</a></li>
+					<br>
+					<li><a href ="#" target ="_blank">Janette's Bunkhouse</a></li>
 				</ul>	
 			</div>
 			

@@ -2,24 +2,28 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Traveling through MI? Need a place to stay along the way? Stop on by the Bunkhouse, located right on M-66! The Bunkhouse is the perfect place for an overnight stay, or even an extended one!">
+	<meta name="description" content="Traveling through MI? Craving some good ol' homestlye cookin'? Stop on by the Chuckwagon Café, located right on M-66!">
 	<title>Chuckwagon Café</title>
-	<link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="assets/images/horse.ico" type="image/x-icon">
+	<link rel="icon" href="assets/images/horse.ico" type="image/x-icon">
 
 	<!-- Latest compiled and minified CSS -->
+
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+	<link href="assets/stylesheets/bootstrap.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="assets/stylesheets/cafe.css"/>	
 	<!-- <link href="assets/css/bootstrap-responsive.css" rel="stylesheet"> -->
 
 	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
 	<!-- Latest compiled JavaScript -->
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
 	<script type="text/javascript" src="assets/javascripts/cafe.js"></script>
+	
 
-	<link rel="stylesheet" type="text/css" href="assets/stylesheets/cafe.css"/>	
 </head>
 
 <body>	
@@ -31,18 +35,60 @@
 					<span class="sr-only">Toggle navigation</span>			
  					<span class="glyphicon glyphicon-menu-down"></span>
 				</button>
-				<a class="navbar-brand" href="bunkhouse.html"><img src="assets/images/bunkLogo.png" alt="Brand" width = "50px" height = "50px"></a>  
+				<a class="navbar-brand" href="index.html"><img src="assets/images/logoLight.png" alt="Chuckwagon Café" width = "50px" height = "50px"></a>  
 			</div><!--End nav toggle-->
 	
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<!-- <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li> -->
-					<li><a href="#homeSecTwo">Availability</a></li>
-					<li><a href="#directions">Directions</a></li>
-					<li><a href="https://www.facebook.com/ShirleysChuckwagonCafe" target="_blank">Shirley's Chuckwagon Café</a></li>
+					<li id = "cafeName" href="index.html">Chuckwagon Café</li>
+									
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu <b class="caret"></b></a>
+						<ul class="dropdown-menu multi-column columns-3">
+						<div class="row">
+							<div class="col-sm-4">
+								<ul class="multi-column-dropdown">
+									<li><a href="#"><b>Breakfast</b></a></li>
+									<li class="divider"></li>
+									<li><a href="#"><b><img src="assets/images/cinnamonPancakes.jpg" alt="Cinnamon-Roll-Pancakes" class="img-circle" height = "90%" width = "90%"></b></a></li>
+								</ul>
+							</div>
+							<div class="col-sm-4">
+								<ul class="multi-column-dropdown">
+									<li><a href="#"><b>Lunch/Dinner</b></a></li>
+									<li class="divider"></li>
+									<li><a href="#"><b><img src="assets/images/burger.jpg" alt="burger" class="img-circle" height = "90%" width = "90%"></b></a></li>
+								</ul>
+							</div>
+	
+							<div class="col-sm-4">
+								<ul class="multi-column-dropdown">
+									<li><a href="#"><b>Kids Menu</b></a></li>
+									<li class="divider"></li>
+									<li><a href="#"><b><img src="assets/images/tenders.jpg" alt="chicken-strips" class="img-circle" height = "90%" width = "90%"></b></a></li>
+								</ul>
+							</div>
+						</div>
+						</ul>
+					</li>
+					<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="about.html#mission">Mission</a></li>
+							<li class="divider"></li>
+							<li><a href="about.html#history">History</a></li>
+							<li class="divider"></li>
+							<li><a href="about.html#contact">Contact</a></li>
+						</ul>
+					</li>
+
+					<li><a href="index.html#secThree">Hours</a></li>
+					<li><a href="index.html#directions">Directions</a></li>
+					
+					
 				</ul>
 				<ul class = "navbar-right">
-					<li><a href="https://www.facebook.com/JanettesBunkhouse/timeline" target="_blank"> <img id = "facebookLogo" src="assets/images/facebook-logo.png" width = "30" height = "30"</img></a></li>
+					<li><a href="https://www.facebook.com/ShirleysChuckwagonCafe?ref=br_tf" target="_blank"> <img id = "facebookLogo" src="assets/images/facebook-logo.png" width = "30" height = "30"</img></a></li>
 				</ul>
 			</div><!--End nav collapse-->
 		</div><!--End container-->
@@ -52,16 +98,23 @@
 		<div class = "my-row">
 			<div class = "container">
 				<div id = "title">
-					<img id="titleImg" src="assets/images/homeTitle2.png" width = "100%" height = "100%" alt="Janette's Bunkhouse: Vacation Rental">
+				<h1>Title area</h1>	
 				</div>
 			</div>
 		</div>	
 	</header>
-
+  
 <!------------------Main---------------------->
 
 	<main>
-
+		<div class = "secOne" class = "my-row">
+			<div class = "container">
+				<div class = "center-text col-md-12">
+					<h1>Menus</h1>							
+				</div>	
+				</div>
+			</div>
+		</div><!--Ends secOne-->
 		
 		<div role="tabpanel">
   			<!-- Nav tabs -->
@@ -481,32 +534,32 @@
   			</div>
 
 		</div><!--End Tabs-->
-		
-	</main>
+	
+	</main>	
 
 	<footer>
 		<div class = "my-row container footer">
 			<div class = "col-md-2">
-				<img id = "logoImg" href="bunkhouse.html" src="assets/images/bunkLogo.png"  alt="Brand" height="100%" width="100%">
+				<img id = "logoImg" href="index.html" src="assets/images/logoLight.png"  alt="Brand" height="100%" width="100%">
 			</div> 	
 					
 			<div class = "col-md-3 col-md-offset-1">	
 				<ul>
 					<li><h4>Location</h4></li>
-					<li>107 Maple St Nashville MI</li>
+					<li>202 Maple St Nashville MI</li>
 					<br>
-					<li>Facebook</li>
-					<li><a href="https://www.facebook.com/JanettesBunkhouse/timeline" target="_blank"> <img id = "facebookLogo" src="assets/images/facebook-logo.png" width = "30" height = "30"</img></a></li>
+					<li><strong>Facebook</strong></li>
+					<li><a href="https://www.facebook.com/ShirleysChuckwagonCafe?ref=br_tf" target="_blank"> <img id = "facebookLogo" src="assets/images/facebook-logo.png" width = "30" height = "30"</img></a></li>
 				</ul>		
 			</div>
 			
 			<div class = "col-md-3">
 				<ul>
 					<li><h4>Contact Us</h4></li>
-					<li>Phone</li>
+					<li><strong>Phone</strong></li>
 					<li>(616)890-9908</li>
 					<br>
-					<li>Email</li>
+					<li><strong>Email</strong></li>
 					<li>jaykim75@yahoo.com</li>
 					
 				</ul>	
@@ -518,6 +571,8 @@
 					<li><a href ="https://www.youtube.com/watch?v=4X7lcEjdqM8" target="_blank">Get Your Kicks on M-66</a></li>
 					<br>	
 					<li><a href ="http://traveltips.usatoday.com/places-stop-m66-michigan-101261.html"target="_blank">Places to Stop</a></li>
+					<br>
+					<li><a href ="#" target ="_blank">Janette's Bunkhouse</a></li>
 				</ul>	
 			</div>
 			

@@ -48,6 +48,12 @@ h1 {
   padding: 5px;
   padding-bottom: 15px;
   font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif; }
+  
+h2 {
+  font-size: 25px;
+  padding: 5px;
+  padding-bottom: 10px;
+  font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif; }
 
 h3 {
   text-align: center;
@@ -131,6 +137,11 @@ main {
   text-align: center; }
   .inner-item img {
     margin: 0 auto; }
+    
+#cafeName {
+	padding-top: 12.5px;
+	font-size: 18px;
+	color: #fff; }    
 
 
 #facebookLogo {
@@ -153,6 +164,43 @@ main {
   min-height: 450px;
   height: 100%; }
 
+.secThree {
+  background-color: #591E23;
+  margin-top: 0;
+  padding-top: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  color: #fff; }
+  
+.secOne{
+  background-color: #591E23;
+  margin-top: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  color: #fff; }
+
+.secTwo {
+  background-color: #F2D8A7;
+  margin-top: 0;
+  padding-top: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px; }
+  .secTwo a:hover {
+    color: #591E23; }
+    
+.secFour {
+  background-color: #F2D8A7;
+  margin-top: 0;
+  padding-top: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px; }
+  .secFour a:hover {
+    color: #591E23; }    
+
 .tab-content
 {
 	background-color: #fff;
@@ -166,5 +214,5 @@ main {
 	margin-top: 20px;
 	display: block;
 	/* border: .25em solid $pink; */
-	border-image:url(border.png) 30 30 round;
+	border-image-source:url(assets/stichBorder.png) 30 30 round;
 }

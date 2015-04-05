@@ -19,6 +19,12 @@ $(document).ready(function(){
 		$("#sidesTab").tab('show');
 	});
 	
+	$(".breakfastShow").click(function(e)
+	{
+		e.preventDefault();
+		document.getElementById(this).className += "active";
+	});
+	
 	$(function ()
 	{
   		$('[data-toggle="tooltip"]').tooltip();
