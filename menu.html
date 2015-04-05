@@ -17,7 +17,6 @@
 	<!-- Latest compiled JavaScript -->
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
-	<script type="text/javascript" src="assets/javascripts/bunkMain.js"></script>
 	<script type="text/javascript" src="assets/javascripts/cafe.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="assets/stylesheets/cafe.css"/>	
@@ -99,10 +98,10 @@
 								<li>One egg, cheese, and choice of bacon, ham, or sausage patty served on an english muffin.  $3.35</li>
 								
 								<li><h4>Shirley’s Breaded Western Steak</h4>
-								<li>Breaded steak, eggs, gravy, choice of <a href = "#potato">potato</a> & toast.  $7.65</li>
+								<li>Breaded steak, eggs, gravy, choice of <a class="potato-detail" href="#potato">potato</a> & toast.  $7.65</li>
 								
-								<li><h4>*Steak & Eggs</h4></li>
-								<li>6 oz. steak, 2 eggs, choice of <a data-tab-destination = "sidesTab">potato</a> & toast.  $9.65</li>
+								<li><h4><a tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="top" title="NOTICE" data-content="We will cook your eggs and meat to order, although consuming raw or undercooked eggs and meat may increase your risk of foodborne illness.">*</a>Steak & Eggs</h4></li>
+								<li>6 oz. steak, 2 eggs, choice of <a class="potato-detail" href="#potato">potato</a> & toast.  $9.65</li>
 								
 								<li><h4>The Drover</h4></li>
 								<li>Hashbrowns or american fries covered with sausage gravy.  $5.55</li>
@@ -179,7 +178,11 @@
 									<li><small>(Made with homemade cinnamon bread)</small></li>									
 								</ul>
 								
-								<h3>*Eggs</h3>
+								
+								
+								<h3>
+								<a data-toggle="tooltip" title="We will cook your eggs and meat to order, although consuming raw or undercooked eggs and meat may increase your risk of foodborne illness.">*</a>
+								Eggs</h3>
 								<li class = "center-text"><small>(All egg dishes served with choice of toast)</small></li>
 								<ul>
 									<li><h4>Eggs Any Style!</h4></li>
@@ -224,8 +227,10 @@
 
 								<li>Hamburger - $3.75</li>
 								<li>Cheeseburger - $4.30</li>
+								<br>
 								<li>Bacon Burger - $4.55</li>
 								<li>Bacon Cheeseburger - $4.95</li>
+								<br>
 								<li>Olive Burger - $4.55</li>
 								<li>Mushroom Swiss Burger - $4.75</li>
 								
@@ -246,12 +251,15 @@
 								<br>
 								<li>Grilled Cheese on Texas Toast - $2.65</li>
 								<li>Grilled  Ham & Cheese - $3.55</li>
+								<br>
 								<li>Grilled Chicken Breast Deluxe - $4.95</li>
 								<li>B.L.T. <small>served on Texas toast</small> - $3.95</li>
+								<li>Fishwich - $3.95</li>
+								<br>
 								<li>Egg Salad Sandwich <small>(Made Fresh)</small> - $3.25</li>
 								<li>Chicken Salad Sandwich <small>(Made Fresh)</small> - $3.95</li>
 								<li>Tuna Salad Sandwich <small>(Made Fresh)</small> - $3.95</li>
-								<li>Fishwich - $3.95</li>
+								
 							</ul>	
 							
 						</div><!--Ends sandwiches-->
@@ -259,7 +267,7 @@
 						<div class ="col-md-4">
 							
 							<div id = "burgerBox">
-								<p>Make any burger or sandwich a basket with choice of potato $1.50</p>
+								<p>Make any burger or sandwich a basket with choice of <a class="potato-detail" href="#potato">potato</a> $1.50</p>
 								<br>
 								<p>All sandwiches and burgers come with chips and a pickle</p>
 							</div>
@@ -286,16 +294,18 @@
     					<div class ="col-md-4">
 							<h3>Home Cooked Dinners</h3>
 							<ul>
-								<li class = "center-text">All dinners include choice of potato, bread, and salad or cup of cup and vegetables. Split meals $1.00 extra.</li>
+								<li class = "center-text">All dinners include choice of <a class="potato-detail" href="#potato">potato</a>, bread, and salad or cup of cup and vegetables. Split meals $1.00 extra.</li>
 								<li><h4>Steaks</h4>
 								<li>Sizzler Steak 6oz  - $10.45</li>
 								<li>Ground Beef Steak 6oz  - $6.99</li>
 								<li>Ham Steak  - Full order $8.25 - Half order $7.45</li>
+								<br>
 								<li><h4>Chicken</h4>
 								<li>3 Piece Fried Chicken  - $8.45</li>
 								<li>1 Grilled Chicken Breast  - $7.10</li>
+								<br>
 								<li><h4>Hot Sandwiches</h4>
-								<li><small>Served with choice of <a href="#potato" data-tab="#sides">potato</a></small></li>
+								<li><small>Served with choice of <a class="potato-detail" href="#potato">potato</a></small></li>
 								
 								<li>Hot Beef  - $6.50</li>
 								<li>Hot Turkey  - $6.50</li>
@@ -322,12 +332,14 @@
 						<div class ="col-md-4">	
 							<h3>Baskets</h3>
 							<ul>	
-								<li><small>Served with choice of <a href="#potato" data-tab="#sides">potato</a></small></li>
+								<li><small>Served with choice of <a class="potato-detail" href="#potato">potato</a></small></li>
 								<li>Chicken Strips (3) - $6.95</li>
+								<li>Wing Dings - $6.50</li>
+								<br>
 								<li>Pollock Pieces (2)- $6.99</li>
 								<li>Shrimp - $6.49</li>
 								<li>½ lb Cod - $7.55</li>
-								<li>Wing Dings - $6.50</li>
+								
 							</ul>
 							
 							<h3>Desserts</h3>
@@ -364,6 +376,7 @@
                 				<li>Peanut butter sandwich - $1.90</li>
 								<li>Hamburger & half order of french fries - $3.10</li>
 								<li><small>Add cheese - $0.55</small></li>
+								<br>
 								<li>Chicken strip & half order of french fries - $3.50</li>
 								<li>Macaroni & cheese - $2.75</li>
 							</ul>
@@ -379,13 +392,16 @@
 			  				<ul>
 			  					<li>Coffee, hot tea, or iced tea - $1.25</li>
 			  					<li>Specialty teas available - $1.45</li>
+			  					<br>
 			  					<li>Soda pop - $1.50</li>
 			  					<li>Juice - Small $0.95  - Large $1.45</li>
 			  					<li><small>(Orange, apple or tomato)</small></li>
+			  					<li>Lemonade - $1.50</li>
+			  					<br>
 			  					<li>Hot cocoa - $1.25</li>
 			  					<li>Milk - Small $0.95 - Large - $1.45</li>
 			  					<li><small>(White or chocolate)</small></li>
-			  					<li>Lemonade - $1.50</li>
+			  					
 			  				</ul>
 			  				
 			  				<br>
@@ -418,6 +434,7 @@
 			  					<li>Bacon, ham, sausage patties, or links - $2.65</li>
 			  					<li>Corned beef hash only - Full order $3.99 - Half order $3.29</li>
 			  					<li>Cup of sausage gravy - $2.75</li>
+			  					<br>
 			  					<li>Oatmeal - Full order $2.95  - Half order - $2.50</li>
 			  					<li><small>(served with milk and brown sugar)</small></li>
 			  					<li>Grits - Full order $2.95 - Half order $2.50</li>

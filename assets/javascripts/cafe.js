@@ -1,14 +1,32 @@
-// $("a[data-tab]").on('click', function() {
-//     var tab = $(this).attr('data-tab'),
-//         target = $(this).attr('href');
-//     $('ul.nav a[href="' + tab + '"]').tab('show');
-//     $('html, body').animate({
-//         scrollTop: $(potato).offset().top
-//     }, 1);    
-// });
-
-$("a[data-tab-destination]").on('click', function()
-{
-var tab = $(this).attr('data-tab-destination');
-$("#" + tab).click();
+$(document).ready(function(){
+    
+   					
+	$(".map-search").submit(function(e) {
+		e.preventDefault();
+		var baseURL = "https://www.google.com/maps/embed/v1/directions?";
+		var	$form = $(e.target);
+		var params = $.param({
+			key: "AIzaSyCUx0-58dRlBsWC7Llk6idVPtkIRVRuq2A",
+			origin: $form.find("[name=saddr]").val(),
+			destination: $form.find("[name=daddr]").val()
+		});
+		$("#map-canvas").attr("src", baseURL + params);
+	});
+	
+	$(".potato-detail").click(function(e)
+	{
+		e.preventDefault();
+		$("#sidesTab").tab('show');
+	});
+	
+	$(function ()
+	{
+  		$('[data-toggle="tooltip"]').tooltip();
+	});
+	
+	$(function ()
+	{
+  		$('[data-toggle="popover"]').popover();
+	});
+    
 });

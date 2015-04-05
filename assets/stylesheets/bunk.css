@@ -1,0 +1,203 @@
+@charset "UTF-8";
+/* #D94E67*/
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  font-family: Tahoma, Geneva, sans-serif;
+  background-color: #591E23; }
+
+footer {
+  background-color: #591E23;
+  color: #fff;
+  text-align: left;
+  padding-top: 10px; }
+  footer a, footer a:link {
+    color: #FF5A7C;
+    text-decoration: none; }
+  footer a:hover {
+    color: #fff;
+    text-decoration: underline; }
+
+.footer {
+  margin: 10px;
+  vertical-align: middle; }
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%; }
+
+header {
+  background-color: #F2D8A7;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  padding-top: 50px; }
+
+#logoImg {
+  max-width: 162px;
+  max-height: 163px; }
+
+#cafeImg {
+  max-width: 350px;
+  max-height: 253px; }
+
+h1 {
+  text-align: center;
+  padding: 5px;
+  padding-bottom: 15px;
+  font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif; }
+
+h3 {
+  text-align: center;
+  padding: 5px;
+  padding-bottom: 10px;
+  font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif; }
+
+h4 {
+  padding-top: 5px;
+  font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif; }
+
+ul {
+  padding-left: 0; }
+  ul p {
+    font-size: 14px; }
+
+h5 {
+  font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+  font-size: 16px; }
+
+p {
+  font-size: 16px; }
+
+main div {
+  padding: 15px; }
+
+hr {
+  border-color: #FF5A7C;
+  width: 90%; }
+
+.vr {
+  border-left: thin solid #FF5A7C; }
+
+li {
+  list-style-type: none; }
+
+a, a:link {
+  color: #FF5A7C;
+  text-decoration: none; }
+
+a:hover {
+  color: #F2D8A7;
+  text-decoration: underline; }
+
+.rounded {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+
+main {
+  background-color: #591E23;
+  padding-top: 5px; }
+
+#titleImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  max-height: 100px;
+  max-width: 400px; }
+
+#title {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 100px;
+  max-width: 400px; }
+
+.navbar-custom {
+  color: #fff;
+  background-color: #591E23; }
+
+.navbar-custom .navbar-nav > li > a {
+  color: #FF5A7C; }
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #fff;
+  background: #FF5A7C; }
+
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #fff; }
+
+.navbar-brand {
+  padding: 0; }
+
+.navbar-right {
+  padding-top: 5px; }
+
+.inner-item {
+  text-align: center; }
+  .inner-item img {
+    margin: 0 auto; }
+
+#myCarousel {
+  background: #73503C; }
+
+#bunkhouseImg {
+  margin-top: 60px; }
+
+#facebookLogo {
+  margin-top: 5px; }
+
+#bunkhouseAbout, #amenities {
+  background-color: #591E23;
+  margin-top: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  color: #fff; }
+
+#amenities {
+  margin-bottom: 50px; }
+
+#homeNashville {
+  background-color: #F2D8A7;
+  margin-top: 0;
+  padding-top: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px; }
+  #homeNashville a:hover {
+    color: #591E23; }
+
+#homeSecTwo {
+  background-color: #591E23;
+  margin-top: 0;
+  padding-top: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  color: #fff; }
+
+.center-text {
+  text-align: center; }
+
+#directions {
+  background-color: #F2D8A7;
+  margin-top: 0;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px; }
+
+#map-canvas {
+  width: 100%;
+  min-height: 450px;
+  height: 100%; }
+
+/*# sourceMappingURL=bunk.css.map */
