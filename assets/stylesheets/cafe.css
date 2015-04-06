@@ -216,3 +216,8 @@ main {
 	/* border: .25em solid $pink; */
 	border-image-source:url(assets/stichBorder.png) 30 30 round;
 }
+
+.floatRight
+{
+	float:right;
+}
