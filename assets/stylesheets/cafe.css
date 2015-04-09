@@ -20,8 +20,9 @@ footer {
     text-decoration: underline; }
 
 .footer {
-  margin: 10px;
-  vertical-align: middle; }
+  margin-top: 10px;
+  
+ }
 
 .center {
   margin-left: auto;
@@ -217,7 +218,22 @@ main {
 	border-image-source:url(assets/stichBorder.png) 30 30 round;
 }
 
-.floatRight
+/* 
+.inline
 {
-	float:right;
+	display: inline;
+    vertical-align: bottom;
+    
 }
+ */
+#pdfMenu
+{
+	float: right;
+	
+}
+
+span.glyphicon {
+    font-size: 20px;
+}
+
+

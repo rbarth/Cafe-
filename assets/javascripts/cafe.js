@@ -19,11 +19,6 @@ $(document).ready(function(){
 		$("#sidesTab").tab('show');
 	});
 	
-	$(".breakfastShow").click(function(e)
-	{
-		e.preventDefault();
-		document.getElementById(this).className += "active";
-	});
 	
 	$(function ()
 	{
@@ -34,5 +29,20 @@ $(document).ready(function(){
 	{
   		$('[data-toggle="popover"]').popover();
 	});
+	
+	if ($("body.menus").length > 0 && window.location.hash.length > 0) {
+		$("[href='" + window.location.hash + "']").tab("show");
+	}
+	
+	$(".slow-scroll").on("click", function (e) {
+		e.preventDefault();
+	    var divId = $(e.target).attr("href");
+	    
+		$("body").animate( {scrollTop: $(divId).offset().top}, 500, function() {
+			window.location.hash = divId
+		});
+	});
     
 });
+
+
