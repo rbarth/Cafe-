@@ -23,37 +23,6 @@
 
 	<script type="text/javascript" src="assets/javascripts/cafe.js"></script>
 	
-<!-- 
-			<script type="text/javascript">
-			<!~~
-			<!~~ $(window).resize(function()....does the same as document.ready ~~>
-			$(document).ready(function(){
-				if($(window).height() > 600){
-					$(".divPages").css({
-						"min-height":$(window).height() + "px"
-						});
-					}
-			});
-				function scrollTo(divId){
-					$('html,body').animate({
-						scrollTop: $("#" + divId).offset().top
-							},1000,function(){
-								if(window.location.href.indexOf('#') > 0){
-									var qString = window.location.href;
-									qString = qString.substring(0, qString.indexOf("#"))
-									window.location.href = qString + '#' + divId;
-								}
-								else{
-									window.location.href = window.location.href + '#' + divId;
-								}
-					});
-				}
-				$(window).trigger("hashchange");
-			~~>
-		</script>
- -->
-
-
 </head>
 
 <body>	
@@ -70,7 +39,7 @@
 	
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li id = "cafeName" href="index.html">Chuckwagon Café</li>
+					<li id = "cafeName">Chuckwagon Café</li>
 									
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu <b class="caret"></b></a>
@@ -80,22 +49,22 @@
 								<ul class="multi-column-dropdown">
 									<li><a href="menus.html#breakfastTab" class = "breakfastShow"><b>Breakfast</b></a></li>
 									<li class="divider"></li>
-									<li><a href="menus.html#breakfastTab"><b><img src="assets/images/cinnamonPancakes.jpg" alt="Cinnamon-Roll-Pancakes" class="img-circle" height = "90%" width = "90%"></b></a></li>
+									<li><a href="menus.html#breakfastTab"><b><img src="assets/images/cinnamonPancakes2.jpg" alt="Cinnamon-Roll-Pancakes" class="img-circle" height = "90%" width = "90%"></b></a></li>
 								</ul>
 							</div>
 							<div class="col-sm-4">
 								<ul class="multi-column-dropdown">
-									<li><a href="#"><b>Lunch/Dinner</b></a></li>
+									<li><a href="menus.html#burgerTab"><b>Lunch/Dinner</b></a></li>
 									<li class="divider"></li>
-									<li><a href="#"><b><img src="assets/images/burger.jpg" alt="burger" class="img-circle" height = "90%" width = "90%"></b></a></li>
+									<li><a href="menus.html#burgerTab"><b><img src="assets/images/burger.jpg" alt="burger" class="img-circle" height = "90%" width = "90%"></b></a></li>
 								</ul>
 							</div>
 	
 							<div class="col-sm-4">
 								<ul class="multi-column-dropdown">
-									<li><a href="#"><b>Kids Menu</b></a></li>
+									<li><a href="menus.html#kidTab"><b>Kids Menu</b></a></li>
 									<li class="divider"></li>
-									<li><a href="#"><b><img src="assets/images/tenders.jpg" alt="chicken-strips" class="img-circle" height = "90%" width = "90%"></b></a></li>
+									<li><a href="menus.html#kidTab"><b><img src="assets/images/tenders.jpg" alt="chicken-strips" class="img-circle" height = "90%" width = "90%"></b></a></li>
 								</ul>
 							</div>
 						</div>
@@ -113,7 +82,7 @@
 					</li>
 
 					<li><a class="slow-scroll" href="#hours">Hours</a></li>
-					<li><a href="#directions">Directions</a></li>
+					<li><a class="slow-scroll" href="#directions">Directions</a></li>
 					
 					
 				</ul>
@@ -261,8 +230,8 @@
 	<footer>
 		<div class = "my-row container footer">
 			<div class = "col-md-2 col-md-offset-1">
-				<!-- <img id = "logoImg" href="index.html" src="assets/images/logoLight.png"  alt="Brand" height="100%" width="100%"> -->
-				<object type="image/svg+xml" data = "assets/images/logoLight.svg"></object>
+				<img id = "logoImg" href="index.html" src="assets/images/logoLight.png"  alt="Brand" height="100%" width="100%">
+				<!-- <object type="image/svg+xml" data = "assets/images/logoLight.svg"></object> -->
 			</div> 	
 					
 			<div class = "col-md-3">	

@@ -11,7 +11,8 @@ footer {
   background-color: #591E23;
   color: #fff;
   text-align: left;
-  padding-top: 10px; }
+  padding-top: 10px;
+  margin-bottom: 20px; }
   footer a, footer a:link {
     color: #FF5A7C;
     text-decoration: none; }
@@ -100,6 +101,9 @@ a, a:link {
 a:hover {
   color: #F2D8A7;
   text-decoration: underline; }
+
+
+
 
 .rounded {
   -webkit-border-radius: 5px;
@@ -218,14 +222,14 @@ main {
 	border-image-source:url(assets/stichBorder.png) 30 30 round;
 }
 
-/* 
 .inline
 {
 	display: inline;
     vertical-align: bottom;
     
 }
- */
+
+
 #pdfMenu
 {
 	float: right;

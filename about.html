@@ -57,24 +57,24 @@
 						<div class="row">
 							<div class="col-sm-4">
 								<ul class="multi-column-dropdown">
-									<li><a href="menus.html" class = "breakfastShow"><b>Breakfast</b></a></li>
+									<li><a href="menus.html#breakfastTab" class = "breakfastShow"><b>Breakfast</b></a></li>
 									<li class="divider"></li>
-									<li><a href="menus.html"><b><img src="assets/images/cinnamonPancakes.jpg" alt="Cinnamon-Roll-Pancakes" class="img-circle" height = "90%" width = "90%"></b></a></li>
+									<li><a href="menus.html#breakfastTab"><b><img src="assets/images/cinnamonPancakes2.jpg" alt="Cinnamon-Roll-Pancakes" class="img-circle" height = "90%" width = "90%"></b></a></li>
 								</ul>
 							</div>
 							<div class="col-sm-4">
 								<ul class="multi-column-dropdown">
-									<li><a href="#"><b>Lunch/Dinner</b></a></li>
+									<li><a href="menus.html#burgerTab"><b>Lunch/Dinner</b></a></li>
 									<li class="divider"></li>
-									<li><a href="#"><b><img src="assets/images/burger.jpg" alt="burger" class="img-circle" height = "90%" width = "90%"></b></a></li>
+									<li><a href="menus.html#burgerTab"><b><img src="assets/images/burger.jpg" alt="burger" class="img-circle" height = "90%" width = "90%"></b></a></li>
 								</ul>
 							</div>
 	
 							<div class="col-sm-4">
 								<ul class="multi-column-dropdown">
-									<li><a href="#"><b>Kids Menu</b></a></li>
+									<li><a href="menus.html#kidTab"><b>Kids Menu</b></a></li>
 									<li class="divider"></li>
-									<li><a href="#"><b><img src="assets/images/tenders.jpg" alt="chicken-strips" class="img-circle" height = "90%" width = "90%"></b></a></li>
+									<li><a href="menus.html#kidTab"><b><img src="assets/images/tenders.jpg" alt="chicken-strips" class="img-circle" height = "90%" width = "90%"></b></a></li>
 								</ul>
 							</div>
 						</div>
@@ -83,11 +83,11 @@
 					<li class="dropdown">
 					<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About <span class="caret"></span></a>
 						<ul class="dropdown-menu" role="menu">
-							<li><a href="about.html#mission" onclick = "scrollTo('hours');">Mission</a></li>
+							<li><a class="slow-scroll" href="#mission">Mission</a></li>
 							<li class="divider"></li>
-							<li><a href="about.html#history" onclick = "scrollTo('hours');">History</a></li>
+							<li><a class="slow-scroll" href="#history">History</a></li>
 							<li class="divider"></li>
-							<li><a href="about.html#contact" onclick = "scrollTo('hours');">Contact</a></li>
+							<li><a class="slow-scroll" href="#contact">Contact</a></li>
 						</ul>
 					</li>
 
@@ -104,13 +104,83 @@
 	</nav>
 
 	<header>
-		<div class = "my-row">
-			<div class = "container">
-				<div id = "title">
-				<h1>Title area</h1>	
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+			<li data-target="#myCarousel" data-slide-to="3"></li>
+			<li data-target="#myCarousel" data-slide-to="4"></li>
+		</ol>
+
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<div class='inner-item'>
+					<!-- <img src="assets/images/bunkhouseWelcome2.jpg" width = "60%" height = "60%" alt="welcome!"> -->
+				</div> 
+			</div>
+	
+			<div class="item">
+				<div class='inner-item'>
+<!-- 
+					<img src="assets/images/kitchen2.jpg" width = "60%" height = "60%" alt="kitchen">
+					<div class="carousel-caption">
+						<h3>Kitchen</h3>
+						<p>Contains all the basic amenities to cook your own dinner. But why bother? <br>
+						Come on over to the café and receive your 10% guest discount.</p>
+ -->
+					</div>
 				</div>
 			</div>
-		</div>	
+
+			<div class="item">
+				<div class='inner-item'>
+<!-- 
+					<img src="assets/images/livingRoom.jpg" width = "60%" height = "60%" alt="living room">
+					<div class="carousel-caption">
+						<h3>Living Room</h3>
+						<p>Two pull-out couches, a TV, table, and tasteful decor. Sit back, relax, and stay awhile.</p>
+					</div>
+ -->
+				</div>
+			</div>
+
+			<div class="item">
+				<div class='inner-item'>
+	<!-- 
+				<img src="assets/images/livingRoom3.jpg" width = "60%" height = "60%" alt="living room">
+					<div class="carousel-caption">
+						<h3>Living Room</h3>
+						<p>Live. Laugh. Love. And surf the internet with our free wi-fi.</p>
+						</div>
+					</div>
+ -->
+				</div>
+	
+			<div class="item">
+				<div class='inner-item'>
+<!-- 
+					<img src="assets/images/bedroom.jpg" width = "60%" height = "60%" alt="bedroom">
+					<div class="carousel-caption">
+						<h3>Bedroom</h3>
+						<p>Rest up. The Nashville area has a variety of events and attractions.</p>
+					</div>
+ -->
+				</div>
+			</div>
+		</div><!--End carousel pics-->
+
+		<!-- Left and right controls -->
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div><!--End carousel--!>
 	</header>
   
 <!------------------Main---------------------->
