@@ -28,14 +28,15 @@
 </head>
 
 <body>	
-					<div id="fb-root"></div>
-					<script>(function(d, s, id) {
-					  var js, fjs = d.getElementsByTagName(s)[0];
-					  if (d.getElementById(id)) return;
-					  js = d.createElement(s); js.id = id;
-					  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-					  fjs.parentNode.insertBefore(js, fjs);
-					}(document, 'script', 'facebook-jssdk')); </script>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
 	<!------------------NavBar---------------------->	
 	<nav class="navbar navbar-custom navbar-fixed-top">
 		<div class="container">
@@ -91,7 +92,7 @@
 						</ul>
 					</li>
 
-					<li><a href="index.html#secThree">Hours</a></li>
+					<li><a href="index.html#hours">Hours</a></li>
 					<li><a href="index.html#directions">Directions</a></li>
 					
 					
@@ -111,64 +112,77 @@
 			<li data-target="#myCarousel" data-slide-to="2"></li>
 			<li data-target="#myCarousel" data-slide-to="3"></li>
 			<li data-target="#myCarousel" data-slide-to="4"></li>
+			<li data-target="#myCarousel" data-slide-to="5"></li>
+			<li data-target="#myCarousel" data-slide-to="6"></li>
+			<li data-target="#myCarousel" data-slide-to="7"></li>
+			<li data-target="#myCarousel" data-slide-to="8"></li>
 		</ol>
 
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner" role="listbox">
 			<div class="item active">
 				<div class='inner-item'>
-					<!-- <img src="assets/images/bunkhouseWelcome2.jpg" width = "60%" height = "60%" alt="welcome!"> -->
+					<img src="assets/images/cafeInside.jpg"  alt="Welcome!">
 				</div> 
 			</div>
 	
 			<div class="item">
 				<div class='inner-item'>
-<!-- 
-					<img src="assets/images/kitchen2.jpg" width = "60%" height = "60%" alt="kitchen">
-					<div class="carousel-caption">
+
+					<img src="assets/images/birthdayAtChuckwagon.jpg" alt="birthday party">
+<!-- 					<div class="carousel-caption">
 						<h3>Kitchen</h3>
 						<p>Contains all the basic amenities to cook your own dinner. But why bother? <br>
 						Come on over to the café and receive your 10% guest discount.</p>
- -->
+
 					</div>
+-->
 				</div>
 			</div>
 
 			<div class="item">
 				<div class='inner-item'>
-<!-- 
-					<img src="assets/images/livingRoom.jpg" width = "60%" height = "60%" alt="living room">
-					<div class="carousel-caption">
-						<h3>Living Room</h3>
-						<p>Two pull-out couches, a TV, table, and tasteful decor. Sit back, relax, and stay awhile.</p>
-					</div>
- -->
+					<img src="assets/images/cafeBear.jpg" alt="Surprise visit from a baby bear">
 				</div>
 			</div>
 
 			<div class="item">
 				<div class='inner-item'>
-	<!-- 
-				<img src="assets/images/livingRoom3.jpg" width = "60%" height = "60%" alt="living room">
-					<div class="carousel-caption">
-						<h3>Living Room</h3>
-						<p>Live. Laugh. Love. And surf the internet with our free wi-fi.</p>
-						</div>
-					</div>
- -->
+				<img src="assets/images/familyFriendly.jpg"  alt="Family Friendly">
 				</div>
 	
+			</div>
+			
 			<div class="item">
 				<div class='inner-item'>
-<!-- 
-					<img src="assets/images/bedroom.jpg" width = "60%" height = "60%" alt="bedroom">
-					<div class="carousel-caption">
-						<h3>Bedroom</h3>
-						<p>Rest up. The Nashville area has a variety of events and attractions.</p>
-					</div>
- -->
+					<img src="assets/images/gazebo.jpg"  alt="gazebo">
+				</div>
+			</div>	
+				
+			<div class="item">
+				<div class='inner-item'>
+					<img src="assets/images/kidFriendly.jpg"  alt="Kid Frindly">
 				</div>
 			</div>
+			
+			<div class="item">
+				<div class='inner-item'>
+					<img src="assets/images/streetView1.jpg"  alt="View of the Street">
+				</div>
+			</div>	
+				
+			<div class="item">
+				<div class='inner-item'>
+					<img src="assets/images/streetView3.jpg" alt="View of teh Street">
+				</div>
+			</div>
+							
+			<div class="item">
+				<div class='inner-item'>
+					<img src="assets/images/M66Book2.jpg"  alt="M66 Book">
+				</div>
+			</div>
+			
 		</div><!--End carousel pics-->
 
 		<!-- Left and right controls -->
@@ -258,7 +272,7 @@
 					<ul>
 						<li><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span> (517)852-2201</li>
 						<br>
-						<li><strong>Send email </strong> <a href="mailto:jaykim75@yahoo.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></li>
+						<li class = "email"><strong>Send email </strong> <a href="mailto:jaykim75@yahoo.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></li>
 					</ul>
 				</div>	
 				
@@ -267,9 +281,7 @@
 				
 
 					<h2>Facebook</h2>
-					
-					<div class="fb-like-box" data-href="https://www.facebook.com/ShirleysChuckwagonCafe" data-width="500" data-height="500" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
-					
+					<div class="fb-page" data-href="https://www.facebook.com/ShirleysChuckwagonCafe" data-height="450" data-hide-cover="false" data-show-facepile="false" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/ShirleysChuckwagonCafe"><a href="https://www.facebook.com/ShirleysChuckwagonCafe">Shirley&#039;s Chuckwagon Cafe</a></blockquote></div></div>					
 				</div>	
 				
 			</div><!--Ends container-->	
@@ -300,7 +312,7 @@
 					<li><strong>Phone</strong></li>
 					<li><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span> (517)852-2201</li>
 					<br>
-					<li><strong>Email </strong> <a href="mailto:jaykim75@yahoo.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></li>
+					<li class = "email"><strong>Email </strong> <a href="mailto:jaykim75@yahoo.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></li>
 					
 				</ul>	
 			</div>
