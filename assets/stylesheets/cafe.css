@@ -20,6 +20,7 @@ footer {
 /*     color: #fff; */
     text-decoration: underline; }
 
+
 .footer {
   margin-top: 10px;
   
@@ -31,11 +32,30 @@ footer {
   width: 70%; }
 
 header {
-  background-color: #F2D8A7;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 5px;
-  padding-top: 50px; }
+  background-color: #73503C/* F2D8A7 */;
+  margin-top: 50px; }
+  
+#titleImg
+{
+  background: url('../images/woodBackground.png'); 
+	/* height: 650px; */
+}  
+
+#titleImg
+{
+
+}
+
+
+
+#titleText
+{
+	color: white;
+	font-size: 100px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
 #logoImg {
   max-width: 162px;
@@ -115,25 +135,23 @@ a:hover {
 
 main {
   background-color: #591E23;
-  padding-top: 5px; }
+  padding-top: 0px; }
 
 
 .navbar-custom {
   color: #fff;
-  background-color: #591E23; }
+  background-color: #591E23;
+  margin-bottom: 0px; }
 
 .navbar-custom .navbar-nav > li > a {
-  color: #FF5A7C; }
+  color: #fff; }
 
 .navbar-custom .navbar-nav > li > a:hover,
 .navbar-custom .navbar-nav > li > a:focus {
-  color: #fff;
-  background: #FF5A7C; }
+  color: #FF5A7C;
+  /* text-decoration: underline; */
+  /* background: #FF5A7C; */ }
 
-.navbar-custom .navbar-nav > .active > a,
-.navbar-custom .navbar-nav > .active > a:hover,
-.navbar-custom .navbar-nav > .active > a:focus {
-  color: #fff; }
 
 .navbar-brand {
   padding: 0; }
@@ -160,7 +178,7 @@ main {
   text-align: center; }
 
 #directions {
-  background-color: #F2D8A7;
+  background-color: #FAF5FF;
   margin-top: 0;
   padding-top: 15px;
   padding-left: 15px;
@@ -171,26 +189,18 @@ main {
   width: 100%;
   min-height: 450px;
   height: 100%; }
-
-.secThree {
-  background-color: #591E23;
-  margin-top: 0;
-  padding-top: 3px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 10px;
-  color: #fff; }
   
-.secOne{
-  background-color: #591E23;
+.secOne, .secThree{
+  background-color: #fff/* FFE3C9 */;
+  /* FFDEC9 */
   margin-top: 0;
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 10px;
-  color: #fff; }
+  color: #000; }
 
 .secTwo {
-  background-color: #F2D8A7;
+  background-color: #FAF5FF/* F2D8A7 */;
   margin-top: 0;
   padding-top: 3px;
   padding-left: 15px;
@@ -202,7 +212,7 @@ main {
  */
     
 .secFour {
-  background-color: #F2D8A7;
+  background-color: #FAF5FF/* F2D8A7 */;
   margin-top: 0;
   padding-top: 3px;
   padding-left: 15px;
@@ -225,15 +235,13 @@ main {
 	margin-right: auto;
 	margin-top: 20px;
 	display: block;
-	/* border: .25em solid $pink; */
-	border-image-source:url(assets/stichBorder.png) 30 30 round;
+	border: .25em double #FF5A7C;
 }
 
 .inline
 {
 	display: inline;
     vertical-align: bottom;
-    
 }
 
 
@@ -250,6 +258,26 @@ span.glyphicon {
 .email a:hover 
 {
     color: #fff;
+}
+
+#breakfastImg
+{
+	
+}
+
+#burgerImg
+{
+	
+}
+
+#dessertImg
+{
+	
+}
+
+#sidesImg
+{
+	
 }
 
 

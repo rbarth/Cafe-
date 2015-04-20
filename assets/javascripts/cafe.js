@@ -42,6 +42,24 @@ $(document).ready(function(){
 			window.location.hash = divId
 		});
 	});
+	
+	$(function() {
+
+    	function abso() {
+        $('#titleImg').css({
+            // position: 'absolute',
+            width: $(window).width(),
+            height: $(window).height()
+        	});
+    	}
+
+    	$(window).resize(function() {
+        abso();         
+    	});
+
+    	abso();
+
+	});
     
 });
 
