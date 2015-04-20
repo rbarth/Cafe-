@@ -88,18 +88,18 @@
 					
 				</ul>
 				<ul class = "navbar-right">
-					<li><a href="https://www.facebook.com/ShirleysChuckwagonCafe?ref=br_tf" target="_blank"> <img id = "facebookLogo" src="assets/images/facebook-logo.png" width = "30" height = "30"</img></a></li>
+					<li><a href="https://www.facebook.com/ShirleysChuckwagonCafe?ref=br_tf" target="_blank"> <img id = "facebookLogo" src="assets/images/facebook-logo.png"</img></a></li>
 				</ul>
 			</div><!--End nav collapse-->
 		</div><!--End container-->
 	</nav>
 
 	<header>
-		<div class = "secOne" class = "my-row">
+		<div class = "secTwo" class = "my-row">
 			<div class = "container">
 				<div class = "center-text col-md-12">
 					<h1>Menus</h1>	
-					<p id = "pdfMenu"><a href="assets/menus/printMenu.pdf" target="_blank">PDF Menu</a></p>							
+					<button id = "pdfMenu" type="button" class="btn btn-default"><a href="assets/menus/printMenu.pdf" target="_blank">Print Menu</a></button>						
 				</div>	
 				</div>
 			</div>
@@ -157,7 +157,7 @@
 								<li>Choice of meat. $6.35</li>
 							
 								<br>
-								<img id="pancakeImg" src="assets/images/cinnPancakesSq.jpg" width = "100%" height = "100%" alt="Cinnamon glazed pancakes">
+								<img id="pancakeImg" src="assets/images/cinnPancakesSq.jpg" alt="Cinnamon glazed pancakes">
 								<br>
 							</ul>	
 						</div><!--End column one-->
@@ -307,7 +307,7 @@
 								<li>Chicken Salad Sandwich <small>(Made Fresh)</small> - $3.95</li>
 								<li>Tuna Salad Sandwich <small>(Made Fresh)</small> - $3.95</li>
 								
-								<img id="" src="assets/images/burger.jpg" width = "50%" height = "50%" alt="Yummy burger">
+								<img id="burgerImg"  src="assets/images/burgerSq.jpg" alt="Yummy burger">
 
 								
 							</ul>	
@@ -344,7 +344,7 @@
     					<div class ="col-md-4">
 							<h3>Home Cooked Dinners</h3>
 							<ul>
-								<li class = "center-text">All dinners include choice of <a class="potato-detail" href="#potato">potato</a>, bread, and salad or cup of cup and vegetables. Split meals $1.00 extra.</li>
+								<li class = "center-text">All dinners include choice of <a class="potato-detail" href="#potato">potato</a>, bread, and salad or cup of soup and vegetables. Split meals $1.00 extra.</li>
 								<li><h4>Steaks</h4>
 								<li>Sizzler Steak 6oz  - $10.45</li>
 								<li>Ground Beef Steak 6oz  - $6.99</li>
@@ -397,7 +397,7 @@
 								<li>½ lb Cod - $7.55</li>
 							</ul>
 							
-							<img id="" src="assets/images/piesSq.jpg" width = "75%" height = "75%" alt="Specialy Pies">
+							<img id="dessertImg" src="assets/images/piesSq.jpg" alt="Specialty Pies">
 
 							
 
@@ -417,12 +417,11 @@
 						</div>
 						
 						<div class ="col-md-4">
-							<img id="kidCowgirl" src="assets/images/kidCowgirl.png" width = "30%" height = "30%" alt="Kiddy Cowboy">
-							<img id="kidCowboy" src="assets/images/kidCowboy.png" width = "30%" height = "30%" alt="Kiddy Cowboy">
-							<figcaption>Kids' Menu: Ten years and younger</figcaption>
+							<img class="center-block" id="kiddies" src="assets/images/kiddies.png" alt="Kiddy Cowboys and Cowgirls">
+							<figcaption class="center-text">Kids' Menu: Ten years and younger</figcaption>
 						</div>	
 						
-						<div class ="col-md-4">	
+						<div class ="col-md-3 col-md-offset-1">	
 							<h3>Lunch</h3>
 							<ul>	
                 				<li>Peanut butter sandwich - $1.90</li>
@@ -457,18 +456,19 @@
 			  				</ul>
 			  				
 			  				<br>
-			  				
-			  				<h3>Choice of Potato</h3>
-			  				<li class = "center-text">$1.95</li>  
-			  				<ul>
-								<li>Baked <small>(when available)</small></li>
-			  					<li>Hashbrowns</li>
-			  					<li>American fries</li>
-			  					<li>Mashed</li>
-			  					<li>French fries</li>
-			  					<li>Brew Fries - additional $0.50</li>
-			  				</ul>
-			  			</div><!--ends beverages-->
+			  				<div id = "potatoBox">
+								<h3>Choice of Potato</h3>
+								<li class = "center-text">$1.95</li>  
+								<ul>
+									<li>Baked <small>(when available)</small></li>
+									<li>Hashbrowns</li>
+									<li>American fries</li>
+									<li>Mashed</li>
+									<li>French fries</li>
+									<li>Brew Fries - additional $0.50</li>
+								</ul>
+			  				</div>
+			  			</div><!--ends beverages/potato-->
 			  			
 			  			<div class ="col-md-4">
 			  				<h3>Breakfast Sides</h3>
@@ -493,7 +493,7 @@
 			  					<li><small>Add pecans, walnuts or raisins - $0.75</small></li>
 			  				</ul>
 			  				
-			  				<img id="" src="assets/images/cinnToastSq.jpg" width = "50%" height = "50%" alt=" Side of French Toast">
+			  				<img id="sidesImg" class="center-block" src="assets/images/cinnToastSq.jpg" alt=" Side of French Toast">
 			  				
 			  			</div><!--ends break/sides-->
 			  			
@@ -541,7 +541,7 @@
 	<footer>
 		<div class = "my-row container footer">
 			<div class = "col-md-2 col-md-offset-1">
-				<img id = "logoImg" href="index.html" src="assets/images/logoLight.png"  alt="Brand" height="100%" width="100%">
+				<img id = "logoImg" href="index.html" src="assets/images/logoLight.png"  alt="Brand">
 			</div> 	
 					
 			<div class = "col-md-3">	
@@ -550,7 +550,7 @@
 					<li>202 Maple St Nashville MI</li>
 					<br>
 					<li><strong>Facebook</strong></li>
-					<li><a href="https://www.facebook.com/ShirleysChuckwagonCafe?ref=br_tf" target="_blank"> <img id = "facebookLogo" src="assets/images/facebook-logo.png" width = "30" height = "30"</img></a></li>
+					<li><a href="https://www.facebook.com/ShirleysChuckwagonCafe?ref=br_tf" target="_blank"> <img id = "facebookLogo" src="assets/images/facebook-logo.png"</img></a></li>
 				</ul>		
 			</div>
 			

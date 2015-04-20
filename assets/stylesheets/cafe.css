@@ -11,8 +11,8 @@ footer {
   background-color: #591E23;
   color: #fff;
   text-align: left;
-  padding-top: 10px;
-  margin-bottom: 20px; }
+  padding-top: 0.625em;
+  margin-bottom: 1.25em; }
   footer a, footer a:link {
     color: #FF5A7C;
     text-decoration: none; }
@@ -22,7 +22,7 @@ footer {
 
 
 .footer {
-  margin-top: 10px;
+  margin-top: 0.625em;
   
  }
 
@@ -33,7 +33,7 @@ footer {
 
 header {
   background-color: #73503C/* F2D8A7 */;
-  margin-top: 50px; }
+  margin-top: 3.125em; }
   
 #titleImg
 {
@@ -41,69 +41,65 @@ header {
 	/* height: 650px; */
 }  
 
-#titleImg
-{
-
-}
-
-
-
 #titleText
 {
-	color: white;
-	font-size: 100px;
+  color: white;
+  font-size: 6.25em;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+  text-align: center;
 }
 
+
+
 #logoImg {
-  max-width: 162px;
-  max-height: 163px; }
+  max-width: 10.125em;
+  max-height: 10.1875em; }
 
 #cafeImg {
-  max-width: 350px;
-  max-height: 253px; }
+  max-width: 21.875em;
+  max-height: 15.8125em; }
 
 h1 {
   text-align: center;
-  padding: 5px;
-  padding-bottom: 15px;
+  padding:0.3125em;
+  padding-bottom: 0.9375em;
   font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif; }
   
 h2 {
   text-align: center;
-  font-size: 25px;
-  padding: 5px;
-  padding-bottom: 10px;
+  font-size: 1.5625em;
+  padding: 0.3125em;
+  padding-bottom: 0.625em;
   font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif; }
 
 h3 {
   text-align: center;
-  padding: 5px;
-  padding-bottom: 10px;
+  padding: 0.3125em;
+  padding-bottom: 0.625em;
   font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif; }
 
 h4 {
-  padding-top: 5px;
+  padding-top: 0.3125em;
   font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif; }
   
 h5
 {
 	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
-	font-size: 16px;
+	font-size: 1em;
 }
 
 ul {
   padding-left: 0; }
   ul p {
-    font-size: 14px; }
+    font-size: 0.875em; }
 
 p {
-  font-size: 16px; }
+  font-size: 1em; }
 
 main div {
-  padding: 15px; }
+  padding: 0.9375em; }
 
 hr {
   border-color: #FF5A7C;
@@ -129,35 +125,36 @@ a:hover {
 
 
 .rounded {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px; }
+  -webkit-border-radius: 0.3125em;
+  -moz-border-radius: 0.3125em;
+  border-radius: 0.3125em; }
 
 main {
   background-color: #591E23;
-  padding-top: 0px; }
+  padding-top: 0; }
 
 
 .navbar-custom {
   color: #fff;
   background-color: #591E23;
-  margin-bottom: 0px; }
+  margin-bottom: 0; }
 
 .navbar-custom .navbar-nav > li > a {
   color: #fff; }
 
 .navbar-custom .navbar-nav > li > a:hover,
 .navbar-custom .navbar-nav > li > a:focus {
-  color: #FF5A7C;
-  /* text-decoration: underline; */
-  /* background: #FF5A7C; */ }
+  color: #FF5A7C; }
 
 
 .navbar-brand {
-  padding: 0; }
+  padding: 0; 
+  width: 50px;
+  height: 50px;		
+  }
 
 .navbar-right {
-  padding-top: 5px; }
+  padding-top: 0.3125em; }
 
 .inner-item {
   text-align: center; }
@@ -165,13 +162,16 @@ main {
     margin: 0 auto; }
     
 #cafeName {
-	padding-top: 12.5px;
-	font-size: 18px;
+	padding-top: 0.78125em;
+	font-size: 1.125em;
 	color: #fff; }    
 
 
 #facebookLogo {
-  margin-top: 5px; }
+  margin-top: 0.3125em; 
+  width: 30px;
+  height: 30px;
+  }
 
 
 .center-text {
@@ -180,10 +180,10 @@ main {
 #directions {
   background-color: #FAF5FF;
   margin-top: 0;
-  padding-top: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 10px; }
+  padding-top: 0.9375em;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  padding-bottom: 0.625em; }
 
 #map-canvas {
   width: 100%;
@@ -194,18 +194,18 @@ main {
   background-color: #fff/* FFE3C9 */;
   /* FFDEC9 */
   margin-top: 0;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 10px;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  padding-bottom: 0.625em;
   color: #000; }
 
 .secTwo {
   background-color: #FAF5FF/* F2D8A7 */;
   margin-top: 0;
   padding-top: 3px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 10px; }
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  padding-bottom: 0.625em; }
 /* 
   .secTwo a:hover {
     color: #591E23; }
@@ -214,14 +214,11 @@ main {
 .secFour {
   background-color: #FAF5FF/* F2D8A7 */;
   margin-top: 0;
-  padding-top: 3px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 10px; }
-/* 
-  .secFour a:hover {
-    color: #591E23; }  
- */  
+  padding-top: 0.1875em;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  padding-bottom: 0.625em; }
+
 
 .tab-content
 {
@@ -233,7 +230,16 @@ main {
 	width: 75%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 20px;
+	margin-top: 1.25em;
+	display: block;
+	border: .25em double #FF5A7C;
+}
+
+#potatoBox
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.25em;
 	display: block;
 	border: .25em double #FF5A7C;
 }
@@ -248,11 +254,16 @@ main {
 #pdfMenu
 {
 	float: right;
-	
+	border-color:#591E23;	
+}
+
+#pdfMenu a:hover
+{
+	text-decoration: none;
 }
 
 span.glyphicon {
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 .email a:hover 
@@ -260,24 +271,61 @@ span.glyphicon {
     color: #fff;
 }
 
-#breakfastImg
+#pancakeImg
 {
-	
+	max-width: 259px;
+	max-height: 259px;
 }
 
 #burgerImg
 {
-	
+	padding-top: .5em;
+	width: 50%;
+	height: 50%;
+	max-width: 263px;
+	max-height: 263px;	
 }
 
 #dessertImg
 {
-	
+	width: 75%;
+	height: 75%;
+	max-width: 720px;
+	max-height: 540px;	
 }
+
+#kiddies
+{
+	max-width: 149px;
+	max-height: 90px;
+}
+
 
 #sidesImg
 {
-	
+	width: 50%;
+	height 50%;
+	max-width: 250px;
+	max-height: 250px;
 }
+
+#logoId
+{
+	height: 100%;
+	width: 100%;
+}
+
+#bunkLogo
+{
+	width: 50%;
+	height 50%;
+	max-width: 250px;
+	max-height: 252px;
+}
+
+@media (max-width: 599px) and (min-width: 320px) {
+    #titleText{
+        font-size: 50px;
+    }
 
 
